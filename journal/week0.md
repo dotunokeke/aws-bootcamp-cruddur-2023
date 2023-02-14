@@ -5,31 +5,33 @@
 
 In creation of the architecture diagram for cruddr it was essential for me to figure out what the risks, assumptions and constraints were to derive the requirement of Cruddr.
 I was able to achieve this by going through the notes taken during the meeting with both investors and dev team. Based on this meeting note I was able to streamline them accordingly.
-RISKS
+- RISKS
 DELIVERY TIME- The delivery time for this particular project which was agreed upon that it would take 14 weeks to complete. Using the Iron-Triangle I was able to get a reasonable  expectation to work with based on the delivery time. 
-ASSUMPTIONS
+- ASSUMPTIONS
 I will be assuming that we have network bandit will be sufficient for the project you are, I also will assuming that we've got enough money or the budget has been approved to complete the project.
-CONSTRAINTS
+- CONSTRAINTS
 For the appropriate completion of the project it is tantamount to address either policy or technical limitation that may ensue while working on this project. Some of which are,
 Using AWS as the cloud vendor selected,
 The budget, which is estimated to be 0( we will be leveraging AWS Free tier) 
 Time frame of 14weeks for the project completion.
-REQUIREMENT
-Ephemeral-First (micro-blogging platform)
--Frontend- JavaScript using react
--Backend-  Python using ~(flask)
-- API only -(~no tightly coupled monolithic) 
--Careful of budget
--User content (upload?)
--Users- college students, younger students, professionals
---user validation?
---Age Limit?
-ORM(Object relational mapping)
+- REQUIREMENT
+
+1. Ephemeral-First (micro-blogging platform)
+2. Frontend- JavaScript using react
+3. Backend-  Python using ~(flask)
+4. API only -(~no tightly coupled monolithic) 
+5. Budget
+6. User content (upload?)
+7. Users- college students, younger students, professionals
+8. user validation?
+9. Age Limit?
+10. RM(Object relational mapping)
 
 After gathering the RRAC, I was able to leverage these information, draw up the requirement and then iterate with the risk, assumption and constraints so as to come up with a good foundational Requirements.
 After the foundation has been set the conceptual design implementation follows. Which is basically business requirement that is translated to common language that can be understood by users and developers. The conceptual design often referred as napkin doesn’t involve any technical aspect, so I sketched out the basic parameters for which my design will work.
 
 ## Image
+
 <path xmlns="http://www.w3.org/2000/svg" d="M-3153.97-2417.43a6 6 0 0 1 6-6h1336.28a6 6 0 0 1 6 6v810a6 6 0 0 1-6 6h-1336.27a6 6 0 0 1-6-6z" stroke="#232f3e" stroke-width="3" fill="#fff" fill-opacity="0"/>
 
 Link to my Conceptual Design
