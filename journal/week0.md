@@ -29,8 +29,12 @@ ORM(Object relational mapping)
 After gathering the RRAC, I was able to leverage these information, draw up the requirement and then iterate with the risk, assumption and constraints so as to come up with a good foundational Requirements.
 After the foundation has been set the conceptual design implementation follows. Which is basically business requirement that is translated to common language that can be understood by users and developers. The conceptual design often referred as napkin doesn’t involve any technical aspect, so I sketched out the basic parameters for which my design will work.
 
+## Image
+<path xmlns="http://www.w3.org/2000/svg" d="M-3153.97-2417.43a6 6 0 0 1 6-6h1336.28a6 6 0 0 1 6 6v810a6 6 0 0 1-6 6h-1336.27a6 6 0 0 1-6-6z" stroke="#232f3e" stroke-width="3" fill="#fff" fill-opacity="0"/>
+
 Link to my Conceptual Design
 https://lucid.app/lucidchart/baccf444-30b6-4911-86de-63257a979c43/edit?viewport_loc=-3798%2C-2576%2C2731%2C1320%2C0_0&invitationId=inv_baeac777-4dd2-4e34-8ced-7783b8ab4c58
+
 
 
 ## DESIGN PROCESS
