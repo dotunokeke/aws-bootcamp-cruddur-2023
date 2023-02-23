@@ -13,7 +13,6 @@ paths:
         - activities
       responses:
         '200':
-          description: Returns an array of activities"
           description: Returns an array of activities
           content:
             application/json:
@@ -149,7 +148,6 @@ paths:
                 type: array
                 items:
                   $ref: '#/components/schemas/Message'
-
   /api/activities/notifications:
     get:
       description: 'Return a feed of activity for all of those that I follow'
@@ -224,6 +222,7 @@ components:
         created_at:
           type: string
           example: "2023-02-06T18:11:03+00:00"
+
     Message:
       type: object
       properties:
